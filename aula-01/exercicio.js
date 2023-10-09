@@ -12,7 +12,8 @@ let texto3 = texto1.concat(texto2)
 console.log(texto3);
 
 //3) Crie uma variável chamada "idade" e atribua a ela um número que represente a sua idade. Em seguida, crie uma condicional que verifique se a sua idade é maior ou igual a 18 anos. Se for, exiba uma mensagem indicando que você é maior de idade. Caso contrário, exiba uma mensagem indicando que você é menor de idade.
-let idade = 29;
+let idade = 29
+;
 
 if (idade >=18){
     console.log("Você é maior de idade.");
