@@ -3,10 +3,10 @@ const pacientes = ["Bento Raimundo Cavalcanti", "Oliver Samuel Cardoso", "Gerald
 
 function posicaoNaFila(nomeDoPaciente){
     if (pacientes.includes(nomeDoPaciente)){
-        return pacientes.indexOf(nomeDoPaciente)+1;
+        let posicao = pacientes.indexOf(nomeDoPaciente)+1;
+        return `O paciente ${nomeDoPaciente} está na posição ${posicao}.`;
     } else{
-        pacientes.push(nomeDoPaciente);
-        return pacientes.indexOf(nomeDoPaciente)+1;
+        return `O paciente ${nomeDoPaciente} não foi encontrado na fila.`;
     }
 }
 const nomeDoPaciente = "Isis Tatiane Sophie Santos";

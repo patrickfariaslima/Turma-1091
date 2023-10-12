@@ -2,7 +2,7 @@
 
 let array = [1, 10, 5, 55, 15, 80, 3];
 
-function valorMaximo(array){
+function encontrarValorMaximo(array){
     let maximo = array[0];
     for(let i=0; i <array.length; i++){
         if (array[i]>maximo){
@@ -11,5 +11,11 @@ function valorMaximo(array){
     }
     return maximo;
 }
-let maiorNumero = valorMaximo(array);
+let maiorNumero = encontrarValorMaximo(array);
 console.log(maiorNumero);
+
+// outra forma de resolver a questão
+
+let vetor = [1, 15, 1024, 56, 88];
+let maximo1= Math.max(...vetor);
+console.log(maximo1);
